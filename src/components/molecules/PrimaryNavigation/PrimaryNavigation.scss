@@ -1,0 +1,18 @@
+@use "../../../sass/abstracts/index.scss" as a;
+
+.navWrapper {
+  .navList {
+    display: flex;
+    gap: 48px;
+
+    li {
+      @include a.xs;
+      list-style: none;
+      text-transform: uppercase;
+      color: #ffffff;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
