@@ -4,7 +4,7 @@ import DeptLogoWhite from "../../../assets/svg/DeptLogoWhite.svg";
 function Logo() {
   return (
     <div className="logoWrapper">
-      <img className="hamburgerImgLogo" src={DeptLogoWhite} alt="logo" />
+      <img className="imgLogo" src={DeptLogoWhite} alt="logo" />
     </div>
   );
 }
