@@ -1,0 +1,25 @@
+@use "../../../sass/abstracts/index.scss" as a;
+
+.footerInfoSection {
+  display: flex;
+  flex-direction: row;
+  color: #808080;
+  justify-content: space-between;
+}
+
+.footerInfoWrapper {
+  .footerInfoList {
+    display: flex;
+    gap: 36px;
+
+    li {
+      @include a.cta;
+      list-style: none;
+    }
+  }
+}
+
+.footerDeptAgency© {
+  @include a.cta;
+  
+}
