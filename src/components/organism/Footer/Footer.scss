@@ -1,0 +1,33 @@
+.footerSection {
+  display: flex;
+  height: 310px;
+}
+
+.footerBlackWrapper {
+  width: 1323px;
+  max-width: 1323px;
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+}
+
+.footerArrowWrapper {
+  background-color: white;
+  width: 118px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  img {
+    padding-top: 50%;
+  }
+}
+
+.footerUpSection {
+  display: flex;
+  padding: 3em;
+  gap: 4em;
+}
+
+.footerDownSection {
+  padding: 3em;
+}
