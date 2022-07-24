@@ -23,38 +23,39 @@ function questionForm() {
         >
           {({ errors, touched }) => (
             <Form>
-              <div className="nameEmailWrapper">
-                <Input
-                  error={errors.firstName}
-                  touched={touched.firstName}
-                  icon="user"
-                  name="Name"
-                  label="Name"
-                  placeholder="Name"
-                />
-
-                <Input
-                  error={errors.email}
-                  touched={touched.email}
-                  label="Email"
-                  name="Email"
-                  placeholder="Email"
-                />
-              </div>
-              <div className="messageWrapper">
-                <Input
-                  error={errors.message}
-                  touched={touched.message}
-                  label="Message"
-                  name="Message"
-                  placeholder="Message"
-                />
+              <div className="formFormWrapper">
+                <div
+                  className="name
+                messageWrapper"
+                >
+                  <Input
+                    error={errors.firstName}
+                    touched={touched.firstName}
+                    icon="user"
+                    name="Name"
+                    label="Name"
+                  />
+                  <Input
+                    error={errors.message}
+                    touched={touched.message}
+                    label="Message"
+                    name="Message"
+                  />
+                  <Button type="submit">Send</Button>
+                </div>
+                <div className="emailWrapper">
+                  <Input
+                    error={errors.email}
+                    touched={touched.email}
+                    label="Email"
+                    name="Email"
+                  />
+                </div>
               </div>
             </Form>
           )}
         </Formik>
       </div>
-      <Button type="submit">Send</Button>
     </section>
   );
 }
