@@ -1,0 +1,17 @@
+@use "../../../sass/abstracts/index.scss" as a;
+
+.clientListSection {
+  background-color: black;
+  width: 1440px;
+  height: 977px;
+}
+
+.clientListHeader {
+  @include a.m;
+  text-align: left;
+}
+
+.clientListText {
+  @include a.xs;
+  text-align: left;
+}
