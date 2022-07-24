@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ClientCard.scss";
 import ReadMore from "../ReadMore/ReadMore";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function ClientCard(props) {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="clientCardSection">
       <div className="clientCardWrapper">
@@ -11,7 +17,7 @@ function ClientCard(props) {
           className="clientCardImage"
           alt="clientCardBackground"
         />
-        <div className="clientCardBottomContainer">
+        <div data-aos="fade-up" className="clientCardBottomContainer">
           <p className="clientCardTitle">{props.title}</p>
           <p className="clientCardTtext">{props.text}</p>
           <ReadMore />

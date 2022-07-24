@@ -35,3 +35,10 @@
   text-align: left;
   padding-left: 1em;
 }
+
+@media screen and (max-width: 410px) {
+  .heroSectionWrapper {
+    max-width: 410px;
+    max-height: 415px;
+  }
+}

@@ -23,17 +23,15 @@ function Desktop() {
   return (
     <div className="DesktopContainer">
       <Navbar />
-
       <HeroSection />
       <Filters />
+
       <ClientCardComposition1 />
       <ClientCardComposition2 />
       <ClientNoteLeft />
       <ClientCardComposition3 />
-
       <ClientNoteRight />
       <ClientCardComposition4 />
-
       <ClientCardComposition5 />
       <ClientQuote />
       <ClientCardComposition6 />

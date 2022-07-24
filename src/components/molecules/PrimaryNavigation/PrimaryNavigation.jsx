@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./PrimaryNavigation.scss";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function PrimaryNavigation() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <nav className="navWrapper">
-      <ul className="navList">
+      <ul data-aos="fade-left" className="navList">
         <li>Work</li>
         <li>Culture</li>
         <li>Services</li>

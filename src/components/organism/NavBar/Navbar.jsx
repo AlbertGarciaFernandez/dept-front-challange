@@ -11,7 +11,6 @@ function Navbar() {
       <header className="headerWrapper">
         <Logo />
         <PrimaryNavigation />
-        <DotsModal />
       </header>
     </div>
   );

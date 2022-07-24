@@ -24,13 +24,14 @@
   justify-content: space-between;
   overflow: hidden;
   align-items: flex-start;
+  padding-bottom: 1.5em;
 }
 
 .ClientNoteCardTitle {
   @include a.xxs;
 }
 
-.ClientNoteCardTtext {
+.ClientNoteCardText {
   @include a.l;
 }
 

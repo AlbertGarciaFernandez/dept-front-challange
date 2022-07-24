@@ -8,3 +8,9 @@
   align-items: center;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 410px) {
+  .DesktopContainer {
+    max-width: 410px;
+  }
+}
