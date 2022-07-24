@@ -1,0 +1,14 @@
+[
+  { "id": 1, "caption": "Google", "icon": "clientlistsvg/image 72.svg" },
+  { "id": 2, "caption": "Levi's", "icon": "clientlistsvg/image 63.svg" },
+  { "id": 3, "caption": "Netflix", "icon": "clientlistsvg/image 64.svg" },
+  { "id": 4, "caption": "Spotify", "icon": "clientlistsvg/image 74.svg" },
+  { "id": 5, "caption": "Patagonia", "icon": "clientlistsvg/image 65.svg" },
+  { "id": 6, "caption": "Fujitsu", "icon": "clientlistsvg/image 66.svg" },
+  { "id": 7, "caption": "Adyen", "icon": "clientlistsvg/image 71.svg" },
+  { "id": 8, "caption": "Audi", "icon": "clientlistsvg/image 67.svg" },
+  { "id": 9, "caption": "Triumph", "icon": "clientlistsvg/image 68.svg" },
+  { "id": 10, "caption": "Tesla", "icon": "clientlistsvg/image 73.svg" },
+  { "id": 11, "caption": "Asos", "icon": "clientlistsvg/image 69.svg" },
+  { "id": 12, "caption": "TakeAway", "icon": "clientlistsvg/image 70.svg" }
+]
