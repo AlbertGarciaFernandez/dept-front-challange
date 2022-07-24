@@ -1,0 +1,37 @@
+@use "../../../sass/abstracts/index.scss" as a;
+
+.heroSectionWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+  background: linear-gradient(
+      358.53deg,
+      rgba(0, 0, 0, 0.33) 1.79%,
+      rgba(0, 0, 0, 0) 99.33%
+    ),
+    url("../../../assets/img/heroImg.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 628px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.heroSectionTitle {
+  @include a.xxs;
+  text-transform: uppercase;
+  padding-left: 2em;
+}
+.heroSectionText {
+  @include a.m;
+  max-width: 650px;
+  text-align: left;
+  padding-left: 1em;
+}
