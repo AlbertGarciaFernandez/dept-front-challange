@@ -1,0 +1,11 @@
+@use "../../../sass/abstracts/index.scss" as a;
+
+.readMoreLink {
+  cursor: pointer;
+  gap: 10px;
+  display: flex;
+}
+
+.readMoreText {
+  @include a.xxs;
+}
