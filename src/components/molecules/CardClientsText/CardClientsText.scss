@@ -1,0 +1,22 @@
+// .cardClientTextSection {
+//   width: 476px;
+//   height: 568px;
+//   background-color: #121212;
+//   justify-content: space-around;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .cardClientWrapper {
+//   padding: 2em 1em 2em 1em;
+// }
+
+.cardClientWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #121212;
+  width: 476px;
+  height: 568px;
+}
