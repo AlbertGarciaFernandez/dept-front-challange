@@ -1,0 +1,19 @@
+@use "../../../sass/abstracts/index.scss" as a;
+
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  gap: 1.5em;
+  .buttonSend {
+    padding: 10px 20px;
+    @include a.xs;
+    border: 1px solid black;
+    width: 10%;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    text-transform: uppercase;
+  }
+}
