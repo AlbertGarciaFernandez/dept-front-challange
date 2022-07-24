@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Case Front End Developer for DEPT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was done for a technical challenge to DEPT.
+It's based an assignment to test your technical knowledge! The assignment has been devised with technical and visual developers in mind.
+I chose the most visual challenge although I added some elements to give more value to the product! They provided us with a figma design which I have tried to replicate.
 
-## Available Scripts
+> Project built with:
 
-In the project directory, you can run:
+- React
+- JSX
+- SASS
 
-### `npm start`
+> Atomic design
+> This project was done using an atomic design, which components folder have specific structure:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    .
+    ├── components                  # This folder stores all the components.
+    │   ├── atoms                   # Small components, like buttons or inputs.
+    │   ├── molecules               # Containers or wrappers
+    │   └── organism                # These components are sections of the page
+    └── ...
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to run the project
 
-### `npm test`
+> This project has been deployed in Netlify: <a href="https://62ab0083fbd3a9681e0ccf33--imaginative-granita-e4a4e5.netlify.app/">Press here to visit it</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+/* Install the dependencies */
+npm install
+/* Run the project*/
+npm run start
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Future improvements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Improve the query system with Graphql using the github v4 API
+- You should see the entire user profile, navigate between the overview, repos, projects, packages, etc.
+- Integration testing
+- Improve the filter system, you can filter by lastest commited projects, by language, or sort by name.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Feedback
 
-### `npm run eject`
+In my opinion, this challenge helped me to:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Understand better how the RTL (React-testing-library) works
+- Improve my knowledge of atomic design and abstraction of components.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To do this challenge you need to know the principles and basics of React and the API's REST
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Thanks to MVST for giving me the opportunity to do this challenge, it was an incredible experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I have added some schemas for the froms.
+I decided to make a json to treat the svg of the brands since the code was cleaner, more readable and reusable
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+My main idea for this project was to respect the design of the figma as much as possible and also try to give it value with a clean and reusable code.
