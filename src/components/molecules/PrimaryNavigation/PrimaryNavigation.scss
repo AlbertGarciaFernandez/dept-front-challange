@@ -9,7 +9,8 @@
       @include a.xs;
       list-style: none;
       text-transform: uppercase;
-      color: #ffffff;
+      cursor: pointer;
+
       &:hover {
         text-decoration: underline;
       }
