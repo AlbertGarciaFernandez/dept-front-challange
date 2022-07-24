@@ -1,0 +1,24 @@
+@use "../../../sass/abstracts/index.scss" as a;
+
+.clientQuoteWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 92px 64px;
+  gap: 12px;
+  position: relative;
+  max-width: 1440px;
+  height: 284px;
+  background-color: #121212;
+}
+
+.clientQuoteText {
+  @include a.s;
+  text-align: center;
+}
+
+.clientQuoteAutor {
+  @include a.xs;
+  text-align: center;
+}
