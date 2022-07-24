@@ -9,9 +9,13 @@
 .clientListHeader {
   @include a.m;
   text-align: left;
+  padding-left: 1em;
+  padding-top: 1.5em;
 }
 
 .clientListText {
   @include a.xs;
   text-align: left;
+  padding-left: 2em;
+  padding-right: 1.5em;
 }

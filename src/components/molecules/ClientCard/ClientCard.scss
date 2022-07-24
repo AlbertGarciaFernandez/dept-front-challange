@@ -1,14 +1,14 @@
 @use "../../../sass/abstracts/index.scss" as a;
 
-.clientCard {
+.clientCardWrapper {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  gap: 16px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
   width: 720px;
   height: 568px;
-  overflow: hidden;
-  position: relative;
   background: linear-gradient(
     358.53deg,
     rgba(0, 0, 0, 0.33) 1.79%,
@@ -18,13 +18,13 @@
 
 .clientCardBottomContainer {
   position: absolute;
-  z-index: 3;
+  width: 90%;
+  z-index: 30;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
   align-items: flex-start;
-  padding: 1.5em;
 }
 
 .clientCardTitle {
@@ -33,13 +33,12 @@
 
 .clientCardTtext {
   @include a.l;
-  text-align: left;
 }
 
 .clientCardImage {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+
   aspect-ratio: 1/1;
   z-index: -10;
 }

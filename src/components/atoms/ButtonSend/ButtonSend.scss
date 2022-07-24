@@ -1,7 +1,8 @@
 @use "../../../sass/abstracts/index.scss" as a;
 
 .buttonWrapper {
-  width: 100%;
+  width: 175px;
+  height: 50px;
   display: flex;
   gap: 1.5em;
   .buttonSend {
