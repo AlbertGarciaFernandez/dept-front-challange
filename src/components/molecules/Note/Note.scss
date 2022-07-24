@@ -1,0 +1,22 @@
+@use "../../../sass/abstracts/index.scss" as a;
+
+.headerNote {
+  @include a.cta;
+  color: #ffffff;
+  text-align: left;
+}
+.textNote {
+  @include a.xxs;
+  color: #ffffff;
+  text-align: left;
+}
+
+.noteSection {
+  width: 412px;
+  background-color: #121212;
+}
+
+.noteWrapper {
+  padding: 1.5em;
+  border-bottom: #ffffff solid 1px;
+}
