@@ -1,8 +1,9 @@
 @use "../../../sass/abstracts/index.scss" as a;
 
 .clientListSection {
-  background-color: black;
-  width: 1440px;
+  background-color: #121212;
+  max-width: 1440px;
+  position: relative;
   height: 977px;
 }
 
@@ -11,6 +12,7 @@
   text-align: left;
   padding-left: 1em;
   padding-top: 1.5em;
+  color: #ffffff;
 }
 
 .clientListText {
@@ -18,4 +20,11 @@
   text-align: left;
   padding-left: 2em;
   padding-right: 1.5em;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 510px) {
+  .clientListSection {
+    height: 1134px;
+  }
 }

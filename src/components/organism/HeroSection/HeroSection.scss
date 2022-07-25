@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  position: relative;
+
   background: linear-gradient(
       358.53deg,
       rgba(0, 0, 0, 0.33) 1.79%,
@@ -28,12 +28,14 @@
   @include a.xxs;
   text-transform: uppercase;
   padding-left: 2em;
+  position: relative;
 }
 .heroSectionText {
   @include a.m;
-  max-width: 650px;
+  width: 650px;
   text-align: left;
   padding-left: 1em;
+  position: relative;
 }
 
 @media screen and (max-width: 410px) {

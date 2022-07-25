@@ -56,3 +56,13 @@
     transform: scale(1.3);
   }
 }
+
+@media only screen and (max-width: 510px) {
+  .clientCardWrapper {
+    width: 410px;
+    height: 484.5px;
+  }
+  .clientCardTtext {
+    @include a.s;
+  }
+}

@@ -15,8 +15,23 @@
   width: 305px;
   height: 185px;
   text-align: left;
+  padding-top: 1em;
+  gap: 40px;
 }
 
 .formFormWrapper {
   display: flex;
+}
+
+.formHeaderWrapper {
+  padding-left: 2em;
+}
+
+.formFormikWrapper {
+  padding-top: 5em;
+  padding-left: 4em;
+  text-align: left;
+}
+.emailWrapper {
+  padding-left: 3em;
 }

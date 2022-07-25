@@ -22,7 +22,7 @@ I chose the most visual challenge although I added some elements to give more va
 
 ## How to run the project
 
-> This project has been deployed in Netlify: <a href="https://62ab0083fbd3a9681e0ccf33--imaginative-granita-e4a4e5.netlify.app/">Press here to visit it</a>
+> This project has been deployed in Netlify: <a href="">Press here to visit it</a>
 
 ```
 /* Install the dependencies */
@@ -32,25 +32,29 @@ npm run start
 
 ```
 
+## Highlights
+
+- Added some schemas for the froms.
+- I decided to make a json to treat the svg of the brands since the code was cleaner, more readable and reusable
+- Animations Added
+
 ## Future improvements
 
-- Improve the query system with Graphql using the github v4 API
-- You should see the entire user profile, navigate between the overview, repos, projects, packages, etc.
-- Integration testing
-- Improve the filter system, you can filter by lastest commited projects, by language, or sort by name.
+Some of the things that I would have liked to implement that I could not due to time issues are:
+
+- Implement some Testing
+- Improve the modal when the menu is opened
+- I would have liked to be implemented Mobile Design more aproach
 
 ## Feedback
 
+My main idea for this project was to respect the design of the figma as much as possible and also try to give it value with a clean and reusable code.
+
 In my opinion, this challenge helped me to:
 
-- Understand better how the RTL (React-testing-library) works
+- Continuing learning and programming as a front end
 - Improve my knowledge of atomic design and abstraction of components.
 
-To do this challenge you need to know the principles and basics of React and the API's REST
+Thanks to DEPT for giving me the opportunity to do this challenge, it was an incredible experience.
 
-Thanks to MVST for giving me the opportunity to do this challenge, it was an incredible experience.
-
-I have added some schemas for the froms.
-I decided to make a json to treat the svg of the brands since the code was cleaner, more readable and reusable
-
-My main idea for this project was to respect the design of the figma as much as possible and also try to give it value with a clean and reusable code.
+Although there have been days of a lot of work, I am happy with the result and this challenge has motivated me a lot!

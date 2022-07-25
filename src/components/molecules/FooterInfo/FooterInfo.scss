@@ -21,5 +21,9 @@
 
 .footerDeptAgency© {
   @include a.cta;
-  
+}
+@media only screen and (max-width: 510px) {
+  .footerInfoList {
+    flex-direction: column;
+  }
 }

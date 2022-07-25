@@ -5,25 +5,25 @@
 
 .button {
   position: relative;
-  background-color: black;
+  background-color: #121212;
   height: 5rem;
   width: 5rem;
 
-  right: 8vw;
+  right: 1em;
   z-index: 2000;
-  box-shadow: 0 1rem 3rem black;
+  box-shadow: 0 1rem 3rem #121212;
   text-align: center;
   cursor: pointer;
 }
 
 .background {
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
-  position: fixed;
-
-  right: 20vw;
-  background-image: radial-gradient(rgb(0, 0, 0), black);
+  position: absolute;
+  top: 4em;
+  right: 15vw;
+  background-image: radial-gradient(#121212, #121212);
   z-index: 1000;
 
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -33,7 +33,7 @@
   height: 100vh;
   position: fixed;
   top: 0;
-  right: -60vw;
+  right: -50vw;
   z-index: 1500;
   opacity: 0;
   width: 0;

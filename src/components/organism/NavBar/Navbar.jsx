@@ -9,8 +9,15 @@ function Navbar() {
   return (
     <div className="navbarContainer">
       <header className="headerWrapper">
-        <Logo />
-        <PrimaryNavigation />
+        <div className="navbarlogoWrapper">
+          <Logo />
+        </div>
+        <div className="navbarNavigation">
+          <PrimaryNavigation />
+        </div>
+        <div className="navbarModalWrapper">
+          <DotsModal />
+        </div>
       </header>
     </div>
   );
