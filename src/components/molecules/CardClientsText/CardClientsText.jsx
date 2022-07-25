@@ -16,6 +16,7 @@ function CardClientsText() {
           text="Integrating existing content into O’Neills’s new e-commerce platform"
         />
         <Note
+          className="note3"
           header="MICROSOFT"
           text="Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
         />

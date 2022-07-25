@@ -20,3 +20,12 @@
   width: 476px;
   height: 568px;
 }
+
+@media only screen and (max-width: 510px) {
+  .note3 {
+    display: none;
+  }
+  .cardClientWrapper {
+    height: 568px !important;
+  }
+}
