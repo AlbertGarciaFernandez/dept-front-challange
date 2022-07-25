@@ -22,7 +22,7 @@ I chose the most visual challenge although I added some elements to give more va
 
 ## How to run the project
 
-> This project has been deployed in Netlify: <a href="">Press here to visit it</a>
+> This project has been deployed in Netlify: <a href="https://62de004a705cf951665b046f--steady-nougat-8865a2.netlify.app/">Press here to visit it</a>
 
 ```
 /* Install the dependencies */
