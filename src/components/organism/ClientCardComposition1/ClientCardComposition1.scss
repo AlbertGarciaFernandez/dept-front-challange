@@ -1,8 +1,12 @@
 .ClientCardComposition1Wrapper {
-  display: flex;
+  // display: flex;
+  // width: 100%;
+  display: grid;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 1110px) {
   .ClientCardComposition1Wrapper {
     flex-direction: column !important;
   }

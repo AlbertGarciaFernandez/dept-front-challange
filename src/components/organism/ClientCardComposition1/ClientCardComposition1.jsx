@@ -1,8 +1,8 @@
 import React from "react";
 import "./ClientCardComposition1.scss";
 import ClientCard from "../../molecules/ClientCard/ClientCard";
-import Image1 from "../../../assets/img/clientCardImg1.png";
-import Image2 from "../../../assets/img/clientCardImg2.png";
+import Image1 from "../../../assets/webp/clientCardImg1.webp";
+import Image2 from "../../../assets/webp/clientCardImg2.webp";
 
 function ClientCardComposition1() {
   return (
@@ -11,11 +11,13 @@ function ClientCardComposition1() {
         img={Image1}
         title="BOL.COM"
         text="A Summer island in the Netherlands"
+        alt="BackgrounImgBol"
       />
       <ClientCard
         img={Image2}
         title="KEMPEN"
         text="Not some average banking website"
+        alt="BackgrounImgKempen"
       />
     </div>
   );
