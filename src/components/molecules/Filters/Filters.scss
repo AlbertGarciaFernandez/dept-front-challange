@@ -3,5 +3,33 @@
   justify-content: space-between;
   background-color: white;
   color: grey;
-  width: 1440px;
+  width: 100%;
+
+  min-width: 410px;
+}
+
+.showmeText {
+  display: flex;
+  gap: 0.5em;
+  justify-content: space-between;
+}
+
+.allindustriesText {
+  display: flex;
+  gap: 0.5em;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 510px) {
+  .filterSection {
+    display: none;
+  }
+}
+
+.grayTextFilter {
+  color: gray;
+}
+
+.blackTextFilter {
+  color: black;
 }

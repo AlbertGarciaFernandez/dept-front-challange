@@ -4,20 +4,16 @@ import "./Filters.scss";
 function Filters() {
   return (
     <div className="filterSection">
-      <div>
-        <p>
-          Show me
-          <b>
-            <u>all work</u>
-          </b>
+      <div className="showmeText">
+        <p className="grayTextFilter">Show me</p>
+        <p className="blackTextFilter">
+          <u>all work</u>
         </p>
       </div>
-      <div>
-        <p>
-          in
-          <b>
-            <u>all industries</u>
-          </b>
+      <div className="allindustriesText">
+        <p className="grayTextFilter">in</p>
+        <p className="blackTextFilter">
+          <u>all industries</u>
         </p>
       </div>
     </div>
