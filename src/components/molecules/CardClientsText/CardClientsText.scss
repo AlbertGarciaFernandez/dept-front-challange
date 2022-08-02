@@ -1,24 +1,11 @@
-// .cardClientTextSection {
-//   width: 476px;
-//   height: 568px;
-//   background-color: #121212;
-//   justify-content: space-around;
-//   display: flex;
-//   flex-direction: column;
-// }
-
-// .cardClientWrapper {
-//   padding: 2em 1em 2em 1em;
-// }
-
 .cardClientWrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   background-color: #121212;
-  width: 476px;
-  height: 568px;
+  max-width: 476px;
+  max-height: 568px;
 }
 
 @media only screen and (max-width: 510px) {
@@ -26,6 +13,11 @@
     display: none;
   }
   .cardClientWrapper {
-    height: 568px !important;
+    max-height: 256px !important;
+    max-width: 410px;
   }
+}
+
+.cardClientTextSection {
+  background-color: black;
 }

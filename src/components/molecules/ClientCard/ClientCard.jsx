@@ -12,11 +12,7 @@ function ClientCard(props) {
   return (
     <div className="clientCardSection">
       <div className="clientCardWrapper">
-        <img
-          src={props.img}
-          className="clientCardImage"
-          alt="clientCardBackground"
-        />
+        <img src={props.img} className="clientCardImage" alt={props.alt} />
         <div data-aos="fade-up" className="clientCardBottomContainer">
           <p className="clientCardTitle">{props.title}</p>
           <p className="clientCardTtext">{props.text}</p>

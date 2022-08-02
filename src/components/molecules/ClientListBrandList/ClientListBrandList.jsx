@@ -15,8 +15,8 @@ function ClientListBrandList() {
       {Brands &&
         Brands.map((brand) => {
           return (
-            <div data-aos="zoom-in">
-              <img src={brand.icon} />
+            <div data-aos="zoom-in" key={brand.caption}>
+              <img src={brand.icon} alt="brandIcon" />
             </div>
           );
         })}
