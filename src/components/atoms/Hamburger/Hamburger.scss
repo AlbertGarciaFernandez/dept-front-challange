@@ -1,0 +1,75 @@
+@use "../../../sass/abstracts/index.scss" as a;
+
+.hamburgerButton {
+  position: absolute;
+  border: none;
+  background-color: black;
+  z-index: 250;
+  top: 3em;
+  right: 2em;
+  img {
+    width: 50px;
+    height: 100%;
+  }
+}
+.hamburgerLogoWrapper {
+  img {
+    width: 70%;
+  }
+}
+.hamburgerNavlistsWrapper {
+  margin-top: 5em;
+}
+.hamburgerWrapper {
+  display: none;
+  border-radius: 0;
+  padding: 1em 2em;
+  background-color: black;
+  width: 100%;
+
+  height: 98vh;
+  right: 0;
+  position: absolute;
+  z-index: 200;
+}
+
+.hamburgerNavlistItem {
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+  text-align: right;
+  @include a.xxl;
+  border-bottom: 2.5px solid grey;
+  img {
+    display: none;
+    padding-right: 1em;
+  }
+  &:hover {
+    img {
+      display: inline;
+    }
+  }
+}
+
+@media screen and (max-width: 10000px) {
+  .hamburgerButton {
+    display: block;
+  }
+  .hamburgerWrapper {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hamburgerWrapper {
+    max-width: 100vw;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .hamburgerNavlistItem {
+    @include a.m;
+  }
+}
