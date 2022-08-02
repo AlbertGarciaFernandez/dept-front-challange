@@ -11,7 +11,7 @@ function questionForm() {
   return (
     <section className="formSection">
       <div className="formHeaderWrapper">
-        <h1 className="formHeader">QUESTION? WE ARE HERE TO HELP!</h1>
+        <p className="formHeader">QUESTION? WE ARE HERE TO HELP!</p>
       </div>
       <div className="formFormikWrapper">
         <Formik
@@ -41,7 +41,9 @@ function questionForm() {
                     label="Message"
                     name="Message"
                   />
-                  <Button type="submit">Send</Button>
+                  <div className="buttonSendWrapper">
+                    <Button type="submit">Send</Button>
+                  </div>
                 </div>
                 <div className="emailWrapper">
                   <Input

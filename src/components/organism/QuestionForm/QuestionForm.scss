@@ -3,20 +3,24 @@
 .formSection {
   background-color: white;
   color: #121212;
-  width: 1440px;
-  height: 438px;
+  width: 100%;
   display: flex;
+  max-width: 1440px;
+  min-height: 438px;
 }
 
+.buttonSendWrapper {
+  padding-top: 2em;
+}
 .formHeader {
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 37px;
-  width: 305px;
-  height: 185px;
   text-align: left;
   padding-top: 1em;
   gap: 40px;
+  max-width: 380px;
+  max-height: 185px;
+
+  font-weight: 400;
+  font-size: 48px;
 }
 
 .formFormWrapper {
@@ -34,4 +38,26 @@
 }
 .emailWrapper {
   padding-left: 3em;
+}
+
+@media only screen and (max-width: 720px) {
+  .formSection {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .formHeader {
+    @include a.s;
+  }
+  .formSection {
+    display: flex;
+    flex-direction: column;
+    min-width: 410px;
+    min-height: 570px;
+  }
+  .formFormikWrapper {
+    display: flex;
+    flex-direction: column !important;
+  }
 }

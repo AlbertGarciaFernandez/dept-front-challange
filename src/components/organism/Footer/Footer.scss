@@ -1,10 +1,13 @@
 .footerSection {
   display: flex;
-  height: 310px;
+
+  width: 100%;
+  min-height: 663px;
+  min-width: 410px;
 }
 
 .footerBlackWrapper {
-  width: 1323px;
+  width: 100%;
   max-width: 1323px;
   display: flex;
   flex-direction: column;
@@ -32,7 +35,7 @@
   padding: 3em;
 }
 
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 820px) {
   .footerArrowWrapper {
     display: none;
   }

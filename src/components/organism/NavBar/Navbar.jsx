@@ -3,11 +3,10 @@ import "./Navbar.scss";
 import Logo from "../../atoms/Logo/Logo";
 
 import PrimaryNavigation from "../../molecules/PrimaryNavigation/PrimaryNavigation";
-import DotsModal from "../../molecules/DotsModal/DotsModal";
 
 function Navbar() {
   return (
-    <div className="navbarContainer">
+    <div className="navbarContainer" data-testid="navBar-1">
       <header className="headerWrapper">
         <div className="navbarlogoWrapper">
           <Logo />
@@ -15,9 +14,7 @@ function Navbar() {
         <div className="navbarNavigation">
           <PrimaryNavigation />
         </div>
-        <div className="navbarModalWrapper">
-          <DotsModal />
-        </div>
+        <div className="navbarModalWrapper"></div>
       </header>
     </div>
   );

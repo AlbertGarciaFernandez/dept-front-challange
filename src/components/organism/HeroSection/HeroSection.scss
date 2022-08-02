@@ -11,12 +11,12 @@
       rgba(0, 0, 0, 0.33) 1.79%,
       rgba(0, 0, 0, 0) 99.33%
     ),
-    url("../../../assets/img/heroImg.png");
+    url("../../../assets/webp/heroImg.webp");
 
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1440px;
-  height: 628px;
+  width: 100%;
+  min-height: 628px;
 
   img {
     max-width: 100%;
@@ -32,7 +32,7 @@
 }
 .heroSectionText {
   @include a.m;
-  width: 650px;
+  max-width: 650px;
   text-align: left;
   padding-left: 1em;
   position: relative;
@@ -42,5 +42,8 @@
   .heroSectionWrapper {
     max-width: 410px;
     max-height: 415px;
+  }
+  .heroSectionText {
+    max-width: 378px !important;
   }
 }
