@@ -7,6 +7,7 @@ I chose the most visual challenge although I added some elements to give more va
 > Project built with:
 
 - React
+- Redux
 - JSX
 - SASS
 
@@ -40,11 +41,7 @@ npm run start
 
 ## Future improvements
 
-Some of the things that I would have liked to implement that I could not due to time issues are:
-
 - Implement some Testing
-- Improve the modal when the menu is opened
-- I would have liked to be implemented Mobile Design more aproach
 
 ## Feedback
 
