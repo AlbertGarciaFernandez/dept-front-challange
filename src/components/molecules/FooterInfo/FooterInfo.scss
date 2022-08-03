@@ -21,9 +21,30 @@
 
 .footerDeptAgency© {
   @include a.cta;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px !important;
+  line-height: 15px !important;
+  text-align: left;
 }
 @media only screen and (max-width: 510px) {
+  .footerInfoSection {
+    flex-direction: column;
+  }
   .footerInfoList {
     flex-direction: column;
+    gap: 0px !important;
+    li {
+      font-family: Arial;
+      font-size: 13px !important;
+      font-weight: 400;
+      line-height: 15px !important;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  .footerDeptAgency© {
+    padding-left: 3em;
   }
 }
