@@ -13,7 +13,9 @@ function ClientNoteCard(props) {
       <div className="ClientNoteCardBottomContainer">
         <p className="ClientNoteCardTitle">{props.title}</p>
         <p className="ClientNoteCardText">{props.text}</p>
-        <ReadMore />
+        <div className="ReadMoreWrapperClientCard">
+          <ReadMore />
+        </div>
       </div>
     </div>
   );

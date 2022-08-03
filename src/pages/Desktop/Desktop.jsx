@@ -5,7 +5,7 @@ import HeroSection from "../../components/organism/HeroSection/HeroSection";
 import ClientQuote from "../../components/organism/ClientQuote/ClientQuote";
 import QuestionForm from "../../components/organism/QuestionForm/QuestionForm";
 import Footer from "../../components/organism/Footer/Footer";
-import DotsModal from "../../components/molecules/DotsModal/DotsModal";
+
 import ClientNoteLeft from "../../components/organism/ClientNoteLeft/ClientNoteLeft";
 import ClientNoteRight from "../../components/organism/ClientNoteRight/ClientNoteRight";
 
@@ -23,6 +23,7 @@ function Desktop() {
   return (
     <div className="DesktopContainer">
       <Navbar />
+
       <HeroSection />
       <Filters />
 

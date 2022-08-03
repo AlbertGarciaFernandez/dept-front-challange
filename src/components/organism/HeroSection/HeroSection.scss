@@ -36,12 +36,13 @@
   text-align: left;
   padding-left: 1em;
   position: relative;
+  line-height: 38px;
 }
 
 @media screen and (max-width: 410px) {
   .heroSectionWrapper {
     max-width: 410px;
-    max-height: 415px;
+    min-height: 415px !important;
   }
   .heroSectionText {
     max-width: 378px !important;

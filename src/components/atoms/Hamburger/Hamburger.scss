@@ -3,9 +3,9 @@
 .hamburgerButton {
   position: absolute;
   border: none;
-  background-color: black;
+  background-color: #121212;
   z-index: 250;
-  top: 3em;
+  top: 3.5em;
   right: 2em;
   img {
     width: 50px;
@@ -18,15 +18,16 @@
   }
 }
 .hamburgerNavlistsWrapper {
-  margin-top: 5em;
+  margin-top: 1em;
 }
 .hamburgerWrapper {
   display: none;
   border-radius: 0;
   padding: 1em 2em;
-  background-color: black;
+  background-color: #121212;
+  max-width: 1375px;
   width: 100%;
-
+  min-height: 410px;
   height: 98vh;
   right: 0;
   position: absolute;

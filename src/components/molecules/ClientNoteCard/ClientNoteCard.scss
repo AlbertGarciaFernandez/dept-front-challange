@@ -35,6 +35,7 @@
 
 .ClientNoteCardText {
   @include a.l;
+  text-align: left;
 }
 
 .ClientNoteCardImage {
@@ -52,5 +53,8 @@
   }
   .ClientNoteCardText {
     @include a.s;
+  }
+  .ReadMoreWrapperClientCard {
+    display: none;
   }
 }

@@ -10,7 +10,7 @@ function ClientCardComposition1() {
       <ClientCard
         img={Image3}
         title="PHILIPS"
-        text="ABeautiful design meets innovative technology"
+        text="Beautiful design meets innovative technology"
         alt="BackgrounImgPhilips"
       />
       <ClientCard
