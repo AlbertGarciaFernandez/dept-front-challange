@@ -1,8 +1,12 @@
 import React, { useEffect } from "react";
+
+//styles
 import "./ClientListBrandList.scss";
 
+//json
 import Brands from "../../../utils/brands.json";
 
+//animations
 import Aos from "aos";
 import "aos/dist/aos.css";
 
