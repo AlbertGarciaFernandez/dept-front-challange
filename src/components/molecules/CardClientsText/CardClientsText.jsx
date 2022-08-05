@@ -1,6 +1,9 @@
 import React from "react";
+
+//styles
 import "./CardClientsText.scss";
 
+//molecules
 import Note from "../Note/Note";
 
 function CardClientsText() {

@@ -1,4 +1,7 @@
 import React from "react";
+
+//styles
+
 import "./ButtonSend.scss";
 
 function Button() {

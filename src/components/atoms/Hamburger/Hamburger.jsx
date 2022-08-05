@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 
+//animations
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -10,6 +11,7 @@ import "./Hamburger.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { setHamburger } from "../../../redux/Hamburger/hamburgerSlice";
 
+//icons
 import hamburgerIcon from "../../../assets/svg/Dots.svg";
 import crossIcon from "../../../assets/svg/cross.svg";
 import polygon from "../../../assets/svg/Polygon.svg";

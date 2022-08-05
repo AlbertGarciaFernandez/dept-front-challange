@@ -1,6 +1,9 @@
 import React from "react";
+
+//styles
 import "./Input.scss";
 
+//formik
 import { Field } from "formik";
 
 function Input({

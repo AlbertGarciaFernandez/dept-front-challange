@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
+
+//styles
+
 import "./Arrow.scss";
+//icons
 
 import ArrowSvg from "../../../assets/svg/Arrow.svg";
 

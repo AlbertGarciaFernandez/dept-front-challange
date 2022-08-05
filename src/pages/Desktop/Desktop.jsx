@@ -1,7 +1,13 @@
 import React from "react";
+
+//styles
 import "./Desktop.scss";
+
+//components
 import Navbar from "../../components/organism/NavBar/Navbar";
 import HeroSection from "../../components/organism/HeroSection/HeroSection";
+import Filters from "../../components/molecules/Filters/Filters";
+
 import ClientQuote from "../../components/organism/ClientQuote/ClientQuote";
 import QuestionForm from "../../components/organism/QuestionForm/QuestionForm";
 import Footer from "../../components/organism/Footer/Footer";
@@ -16,17 +22,14 @@ import ClientCardComposition4 from "../../components/organism/ClientCardComposit
 import ClientCardComposition5 from "../../components/organism/ClientCardComposition5/ClientCardComposition5";
 import ClientCardComposition6 from "../../components/organism/ClientCardComposition6/ClientCardComposition6";
 
-import Filters from "../../components/molecules/Filters/Filters";
 import ClientList from "../../components/organism/ClientList/ClientList";
 
 function Desktop() {
   return (
     <div className="DesktopContainer">
       <Navbar />
-
       <HeroSection />
       <Filters />
-
       <ClientCardComposition1 />
       <ClientCardComposition2 />
       <ClientNoteLeft />

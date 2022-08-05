@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
-import "./PrimaryNavigation.scss";
 
+//styles
+import "./PrimaryNavigation.scss";
+// animations
 import Aos from "aos";
 import "aos/dist/aos.css";
 

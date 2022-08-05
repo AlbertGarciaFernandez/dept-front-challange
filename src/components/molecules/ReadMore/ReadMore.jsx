@@ -1,5 +1,9 @@
 import React from "react";
+
+//styles
 import "./ReadMore.scss";
+
+//atoms
 import Ellipse from "../../atoms/Ellipse/Ellipse";
 
 function ReadMore() {

@@ -1,5 +1,9 @@
 import React from "react";
+
+//styles
 import "./ClientNoteCard.scss";
+
+//molecules
 import ReadMore from "../ReadMore/ReadMore";
 
 function ClientNoteCard(props) {

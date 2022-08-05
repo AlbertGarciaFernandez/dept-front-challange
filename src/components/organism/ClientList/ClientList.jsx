@@ -1,5 +1,9 @@
 import React from "react";
+
+//styles
 import "./ClientList.scss";
+
+//molecules
 import ClientListBrandList from "../../molecules/ClientListBrandList/ClientListBrandList";
 
 function ClientList() {

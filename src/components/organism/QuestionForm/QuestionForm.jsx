@@ -1,10 +1,16 @@
 import React from "react";
+
+// formik
 import { Form, Formik } from "formik";
+
+//styles
 import "./QuestionForm.scss";
 
+// components
 import Button from "../../atoms/ButtonSend/ButtonSend";
 import Input from "../../molecules/Input/Input";
 
+//schemas
 import { formSchema } from "../../../utils/schemas";
 
 function questionForm() {

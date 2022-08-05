@@ -1,5 +1,9 @@
 import React from "react";
+
+//styles
 import "./Logo.scss";
+
+//icons
 import DeptLogoWhite from "../../../assets/svg/DeptLogoWhite.svg";
 
 function Logo() {

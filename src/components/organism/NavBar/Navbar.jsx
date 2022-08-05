@@ -1,9 +1,13 @@
 import React from "react";
-import "./Navbar.scss";
-import Logo from "../../atoms/Logo/Logo";
 
+//styles
+import "./Navbar.scss";
+
+//redux
 import { useSelector } from "react-redux";
 
+// components
+import Logo from "../../atoms/Logo/Logo";
 import PrimaryNavigation from "../../molecules/PrimaryNavigation/PrimaryNavigation";
 import Hamburger from "../../atoms/Hamburger/Hamburger";
 
@@ -12,7 +16,7 @@ function Navbar() {
     hamburger: { isHamburgerActive },
   } = useSelector((state) => state);
   return (
-    <div className="navbarContainer" data-testid="navBar-1">
+    <div className="navbarContainer">
       <header className="headerWrapper">
         {!isHamburgerActive ? (
           <>

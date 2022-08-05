@@ -1,6 +1,12 @@
 import React from "react";
+
+//styles
 import "./ClientCardComposition3.scss";
+
+//molecules
 import ClientCard from "../../molecules/ClientCard/ClientCard";
+
+//images
 import Image5 from "../../../assets/webp/clientCardImg5.webp";
 import Image6 from "../../../assets/webp/clientCardImg6.webp";
 

@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
+
+//styles
 import "./HeroSection.scss";
 
+//animations
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -9,7 +12,7 @@ function HeroSection() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className="heroSectionWrapper">
+    <div className="heroSectionWrapper" data-testid="heroSection-1">
       <p data-aos="fade-up" className="heroSectionTitle">
         Work
       </p>

@@ -1,8 +1,13 @@
 import React from "react";
 
+//styles
 import "./ClientNoteLeft.scss";
+
+//molecules
 import CardClientsText from "../../molecules/CardClientsText/CardClientsText";
 import ClientNoteCard from "../../molecules/ClientNoteCard/ClientNoteCard";
+
+//images
 import ImageClientNote1 from "../../../assets/webp/ClientNoteImg.webp";
 
 function ClientNote() {

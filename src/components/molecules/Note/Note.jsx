@@ -1,7 +1,12 @@
 import React, { useEffect } from "react";
+
+//styles
 import "./Note.scss";
+
+//molecules
 import ReadMore from "../ReadMore/ReadMore";
 
+//animations
 import Aos from "aos";
 import "aos/dist/aos.css";
 

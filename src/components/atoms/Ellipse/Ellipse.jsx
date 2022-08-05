@@ -1,5 +1,9 @@
 import React from "react";
+
+//styles
 import "./Ellipse.scss";
+
+//icons
 import EllipseSvg from "../../../assets/svg/Ellipse.svg";
 
 function Ellipse() {

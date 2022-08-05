@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
+
+//styles
 import "./ClientQuote.scss";
 
+//animations
 import Aos from "aos";
 import "aos/dist/aos.css";
 
